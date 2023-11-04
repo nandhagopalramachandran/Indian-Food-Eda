@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.home-background {
+  background-image: url("{{ url_for('static', filename='2.jpg') }}");/* Background for the home page */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1318px;
+  height: 500px;
+}
+
+.navbar {
+  background-color: hsl(354, 70%, 54%);
+  padding: 10px 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0px 0px 0px;
+  text-align: center;
+  
+ 
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+h2{
+  font-size: 26px;
+  color: #333;
+}
+
+
+p {
+  margin-top: 0px;
+  font-size: 20px;
+  color: hsl(354, 70%, 54%);
+  font-family: 'Caveat', cursive;
+}
+.main{
+  width: 100%;
+  background:url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
